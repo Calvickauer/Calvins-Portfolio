@@ -36,3 +36,130 @@
     transform: rotate(360deg);
   }
 }
+
+.about-me {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-me h2 {
+  color: #333;
+}
+
+.about-me p {
+  color: #666;
+}
+
+/* App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+/* Contact.css */
+
+.contact {
+  max-width: 800px;
+  min-width: fit-content;
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: transparent; /* Set initial background to transparent */
+  border-radius: 10px; /* Apply border radius */
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.contact.active {
+  background-color: lightgrey; /* Set background color when active */
+  border-radius: 1px solid black;
+}
+
+.contact__input {
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.contact__input-message {
+  width: 70%;
+  height: 100px;
+  margin: auto;
+  border-radius: 10px;
+  overflow-x: none;
+  overflow-y: scroll;
+}
+
+.contact h2 {
+  color: #333;
+}
+
+form {
+  display: grid;
+  grid-gap: 15px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.contact button {
+  background-color: blue;
+  color: white;
+  font-weight: bolder;
+  border: 1px solid #333;
+  border-radius: 10px;
+  width: 150px;
+  margin: auto;
+}
+
+.contact button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+
+/* Header.css */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
